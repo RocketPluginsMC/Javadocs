@@ -17,7 +17,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":10};
+var methods = {"i0":10,"i1":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -146,6 +146,14 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 </tr>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code><a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="../../../../../../me/lorenzo0111/rocketplaceholders/creator/conditions/Requirement.html" title="class in me.lorenzo0111.rocketplaceholders.creator.conditions">Requirement</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../me/lorenzo0111/rocketplaceholders/creator/conditions/engine/Requirements.html#createRequirement-me.lorenzo0111.rocketplaceholders.creator.conditions.RequirementType-java.lang.String-org.bukkit.Material-java.lang.String-java.util.List-">createRequirement</a></span>(<a href="../../../../../../me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html" title="enum in me.lorenzo0111.rocketplaceholders.creator.conditions">RequirementType</a>&nbsp;type,
+                 <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value,
+                 <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="https://papermc.io/javadocs/paper/1.16/org/bukkit/Material.html?is-external=true" title="class or interface in org.bukkit">Material</a>&nbsp;material,
+                 <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;itemName,
+                 <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;itemLore)</code>&nbsp;</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code><a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="../../../../../../me/lorenzo0111/rocketplaceholders/creator/conditions/Requirement.html" title="class in me.lorenzo0111.rocketplaceholders.creator.conditions">Requirement</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../me/lorenzo0111/rocketplaceholders/creator/conditions/engine/Requirements.html#parseRequirement-org.bukkit.configuration.ConfigurationSection-">parseRequirement</a></span>(<a href="https://papermc.io/javadocs/paper/1.16/org/bukkit/configuration/ConfigurationSection.html?is-external=true" title="class or interface in org.bukkit.configuration">ConfigurationSection</a>&nbsp;section)</code>
 <div class="block">Generate a condition from a ConfigurationSection</div>
 </td>
@@ -189,6 +197,34 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 <!--   -->
 </a>
 <h3>Method Detail</h3>
+<a name="createRequirement-me.lorenzo0111.rocketplaceholders.creator.conditions.RequirementType-java.lang.String-org.bukkit.Material-java.lang.String-java.util.List-">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>createRequirement</h4>
+<pre><a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a>
+public&nbsp;<a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="../../../../../../me/lorenzo0111/rocketplaceholders/creator/conditions/Requirement.html" title="class in me.lorenzo0111.rocketplaceholders.creator.conditions">Requirement</a>&nbsp;createRequirement(<a href="../../../../../../me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html" title="enum in me.lorenzo0111.rocketplaceholders.creator.conditions">RequirementType</a>&nbsp;type,
+                                                          <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a>
+                                                          <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;value,
+                                                          <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a>
+                                                          <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="https://papermc.io/javadocs/paper/1.16/org/bukkit/Material.html?is-external=true" title="class or interface in org.bukkit">Material</a>&nbsp;material,
+                                                          <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a>
+                                                          <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;itemName,
+                                                          <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a>
+                                                          <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/Nullable.html?is-external=true" title="class or interface in org.jetbrains.annotations">@Nullable</a> <a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;&nbsp;itemLore)</pre>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>type</code> - Type of the requirement</dd>
+<dd><code>value</code> - <b>Optional</b> Value of the requirement, used for JAVASCRIPT,MONEY AND PERMISSION</dd>
+<dd><code>material</code> - <b>Optional</b> Material of the item, used for ITEM</dd>
+<dd><code>itemName</code> - <b>Optional</b> Name of the item, used for ITEM</dd>
+<dd><code>itemLore</code> - <b>Optional</b> Lore of the item, used for ITEM</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>A requirement</dd>
+</dl>
+</li>
+</ul>
 <a name="parseRequirement-org.bukkit.configuration.ConfigurationSection-">
 <!--   -->
 </a>
