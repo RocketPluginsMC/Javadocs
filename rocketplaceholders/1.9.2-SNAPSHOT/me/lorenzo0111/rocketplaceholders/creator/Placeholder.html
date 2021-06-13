@@ -105,6 +105,10 @@ var activeTableTab = "activeTableTab";
 <div class="description">
 <ul class="blockList">
 <li class="blockList">
+<dl>
+<dt>Direct Known Subclasses:</dt>
+<dd><a href="../../../../me/lorenzo0111/rocketplaceholders/creator/dynamic/DynamicPlaceholder.html" title="class in me.lorenzo0111.rocketplaceholders.creator.dynamic">DynamicPlaceholder</a></dd>
+</dl>
 <hr>
 <br>
 <pre>public class <span class="typeNameLabel">Placeholder</span>
@@ -131,7 +135,9 @@ extends <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 <td class="colOne"><code><span class="memberNameLink"><a href="../../../../me/lorenzo0111/rocketplaceholders/creator/Placeholder.html#Placeholder-java.lang.String-org.bukkit.plugin.java.JavaPlugin-java.lang.String-">Placeholder</a></span>(<a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/NotNull.html?is-external=true" title="class or interface in org.jetbrains.annotations">@NotNull</a> <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;identifier,
            <a href="https://papermc.io/javadocs/paper/1.16/org/bukkit/plugin/java/JavaPlugin.html?is-external=true" title="class or interface in org.bukkit.plugin.java">JavaPlugin</a>&nbsp;owner,
            <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/NotNull.html?is-external=true" title="class or interface in org.jetbrains.annotations">@NotNull</a> <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</code>
-<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;</div>
+<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;
+<div class="block"><span class="deprecationComment">Replaced with <a href="../../../../me/lorenzo0111/rocketplaceholders/creator/Placeholder.html#Placeholder-java.lang.String-java.lang.String-org.bukkit.plugin.java.JavaPlugin-java.lang.String-java.util.List-"><code>Placeholder(String, String, JavaPlugin, String, List)</code></a></span></div>
+</div>
 </td>
 </tr>
 <tr class="rowColor">
@@ -296,14 +302,12 @@ public&nbsp;Placeholder(<a href="https://javadoc.io/static/org.jetbrains/annotat
                                 <a href="https://papermc.io/javadocs/paper/1.16/org/bukkit/plugin/java/JavaPlugin.html?is-external=true" title="class or interface in org.bukkit.plugin.java">JavaPlugin</a>&nbsp;owner,
                                 <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/NotNull.html?is-external=true" title="class or interface in org.jetbrains.annotations">@NotNull</a>
                                 <a href="https://javadoc.io/static/org.jetbrains/annotations/20.1.0/org/jetbrains/annotations/NotNull.html?is-external=true" title="class or interface in org.jetbrains.annotations">@NotNull</a> <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</pre>
-<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;</div>
+<div class="block"><span class="deprecatedLabel">Deprecated.</span>&nbsp;<span class="deprecationComment">Replaced with <a href="../../../../me/lorenzo0111/rocketplaceholders/creator/Placeholder.html#Placeholder-java.lang.String-java.lang.String-org.bukkit.plugin.java.JavaPlugin-java.lang.String-java.util.List-"><code>Placeholder(String, String, JavaPlugin, String, List)</code></a></span></div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>identifier</code> - Identifier of the placeholder</dd>
 <dd><code>owner</code> - Plugin that created the placeholder</dd>
-<dd><code>text</code> - Text of the placeholder
-
- Replaced by <a href="../../../../me/lorenzo0111/rocketplaceholders/creator/Placeholder.html#Placeholder-java.lang.String-java.lang.String-org.bukkit.plugin.java.JavaPlugin-java.lang.String-java.util.List-"><code>Placeholder(String, String, JavaPlugin, String, List)</code></a></dd>
+<dd><code>text</code> - Text of the placeholder</dd>
 </dl>
 </li>
 </ul>
@@ -388,6 +392,12 @@ public&nbsp;Placeholder(<a href="https://javadoc.io/static/org.jetbrains/annotat
 <h4>parseJS</h4>
 <pre>public&nbsp;<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;parseJS(<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&nbsp;text)</pre>
 <div class="block">Parse javascript</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>text</code> - Text to parse</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>Parsed text</dd>
+</dl>
 </li>
 </ul>
 <a name="getOwner--">
